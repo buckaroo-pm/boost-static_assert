@@ -8,14 +8,14 @@ target = "//:config"
 package = "github.com/buckaroo-pm/boost-detail"
 target = "//:detail"
 
-[[lock]]
-name = "github.com/buckaroo-pm/boost-config"
-revision = "e60ff9d2778e3d2a6969859783a7c5bcc424f9a2"
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "branch=master" ]
+revision = "f2f2d0d85496b72eeff1186518deb7e23c757bfd"
 
-[[lock]]
-name = "github.com/buckaroo-pm/boost-detail"
-revision = "95bd8a33609c6f6a276f3cff045cda0dfafe2b26"
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "branch=master" ]
+revision = "94aa5268c1a74468be94b40afd730aea1730ceab"
 
-[[lock]]
-name = "github.com/buckaroo-pm/boost-type_traits"
-revision = "19b9862c93b0796e346876782d217fbc33600c27"
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "branch=master" ]
+revision = "a34caf51f831ffb77d1057c668b5db620863d191"
