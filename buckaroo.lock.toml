@@ -10,12 +10,12 @@ target = "//:detail"
 
 [lock."github.com/buckaroo-pm/boost-config"]
 versions = [ "branch=master" ]
-revision = "f2f2d0d85496b72eeff1186518deb7e23c757bfd"
+revision = "60c77dd14f5bac2b9e6c59f308b7ad20d31f70ab"
 
 [lock."github.com/buckaroo-pm/boost-detail"]
 versions = [ "branch=master" ]
-revision = "94aa5268c1a74468be94b40afd730aea1730ceab"
+revision = "ec2d46a5e413ca9f1c97b2628732bc114e83e3f8"
 
 [lock."github.com/buckaroo-pm/boost-type_traits"]
 versions = [ "branch=master" ]
-revision = "a34caf51f831ffb77d1057c668b5db620863d191"
+revision = "b8e0fcc49cede65c3b4ef18ed5aa797225578467"
