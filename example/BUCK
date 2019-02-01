@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'example-1',
+  srcs = [
+    'static_assert_example_1.cpp',
+  ],
+  deps = [
+    '//:static-assert',
+  ],
+)
