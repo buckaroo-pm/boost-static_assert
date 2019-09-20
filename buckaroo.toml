@@ -1,4 +1,4 @@
-targets = [ "//:static-assert" ]
+targets = [ "//:static_assert" ]
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-config"
