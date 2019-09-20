@@ -1,0 +1,21 @@
+manifest = "c01a5363dc0c821b448d5169fcaccdaf2aafae95c5e6962b2026058bd47bcc4c"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+target = "//:config"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-detail"
+target = "//:detail"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.68.0" ]
+revision = "c7d32953c472ce021b1badc7bdbaa1aa3aa44099"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.68.0" ]
+revision = "e0b75472e46adfc4ffdbfe07534bbd1f260abd74"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.68.0" ]
+revision = "a7c208a5edd4c090df302c9c147519c07d63a736"
